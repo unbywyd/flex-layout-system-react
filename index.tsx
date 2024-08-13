@@ -18,6 +18,12 @@ import {
   LtrOnly as LtrOnlyBase,
 } from "flex-layout-system";
 
+export {
+  EnumJustifyContent,
+  EnumAlignContent,
+  EnumAlignItems,
+  EnumAlignSelf
+} from "flex-layout-system";
 
 export const LtrOnly = createComponent({
   react: React,

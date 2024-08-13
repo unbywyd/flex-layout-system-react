@@ -1,4 +1,5 @@
 import { FlexBox as FlexBoxBase, FitBox as FitBoxBase, FlexCanvas as FlexCanvasBase, FlexCell as FlexCellBase, FlexDivider as FlexDividerBase, FlexGrid as FlexGridBase, FlexMedia as FlexMediaBase, SpaceBox as SpaceBoxBase, StackedBox as StackedBoxBase, StackedCell as StackedCellBase, AspectRatio as AspectRatioBase, StyleBox as StyleBoxBase, ScreenReaderOnly as ScreenReaderOnlyBase, LtrOnly as LtrOnlyBase } from "flex-layout-system";
+export { EnumJustifyContent, EnumAlignContent, EnumAlignItems, EnumAlignSelf } from "flex-layout-system";
 export declare const LtrOnly: import("@lit-labs/react").ReactWebComponent<LtrOnlyBase, {}>;
 export declare const AspectRatio: import("@lit-labs/react").ReactWebComponent<AspectRatioBase, {}>;
 export declare const SrOnly: import("@lit-labs/react").ReactWebComponent<ScreenReaderOnlyBase, {}>;

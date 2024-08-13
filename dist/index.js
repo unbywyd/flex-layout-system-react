@@ -1,6 +1,7 @@
 import React from "react";
 import { createComponent } from "@lit-labs/react";
 import { FlexBox as FlexBoxBase, FitBox as FitBoxBase, FlexCanvas as FlexCanvasBase, FlexCell as FlexCellBase, FlexDivider as FlexDividerBase, FlexGrid as FlexGridBase, FlexMedia as FlexMediaBase, SpaceBox as SpaceBoxBase, StackedBox as StackedBoxBase, StackedCell as StackedCellBase, AspectRatio as AspectRatioBase, StyleBox as StyleBoxBase, ScreenReaderOnly as ScreenReaderOnlyBase, LtrOnly as LtrOnlyBase, } from "flex-layout-system";
+export { EnumJustifyContent, EnumAlignContent, EnumAlignItems, EnumAlignSelf } from "flex-layout-system";
 export const LtrOnly = createComponent({
     react: React,
     tagName: "ltr-only",
